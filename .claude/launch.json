@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "flask-chatbot",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "source .venv/bin/activate && ADMIN_KEY=demo123 SECRET_KEY=dev python app.py"],
+      "port": 5000
+    }
+  ]
+}
